@@ -11,7 +11,7 @@
 
 $EM_CONF[$_EXTKEY] = array(
 	'title' => 'RealUrl TypoScript Rendering Fix',
-	'description' => 'Fixes the bug in RealUrl that causes infinite loops when using TypoScript rendering.',
+	'description' => 'Fixes a bug in RealUrl which causes infinite loops when using the TypoScript rendering extension for AJAX.',
 	'category' => 'misc',
 	'state' => 'stable',
 	'createDirs' => '',
