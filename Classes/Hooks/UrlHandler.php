@@ -26,17 +26,19 @@ namespace Webit\RealurlTyposcriptRenderingFix\Hooks;
  *  This copyright notice MUST APPEAR in all copies of the script!
  ***************************************************************/
 
-class UrlHandler {
-	/**
-	 * Prevent RealUrl for encoding ajax-request-urls
-	 *
-	 * @param	array		$params: Params
-	 * @param	array		$ref: Parent Object
-	 * @return	void
-	 */
-	public function encode(&$params, &$ref) {
-		if (strpos($params['params']['LD']['totalURL'], 'tx_typoscriptrendering') !== FALSE) {
-			$params['URL'] = $params['params']['LD']['totalURL'];
-		}
-	}
+class UrlHandler
+{
+    /**
+     * Prevent RealUrl for encoding ajax-request-urls
+     *
+     * @param	array		$params: Params
+     * @param	array		$ref: Parent Object
+     * @return	void
+     */
+    public function encode(&$params, &$ref)
+    {
+        if (strpos($params['params']['LD']['totalURL'], 'tx_typoscriptrendering') !== false) {
+            $params['URL'] = $params['params']['LD']['totalURL'];
+        }
+    }
 }
