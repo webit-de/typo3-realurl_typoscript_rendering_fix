@@ -1,5 +1,5 @@
 <?php
-namespace Webit\RealurlTyposcriptRenderingFix\Hooks;
+namespace WebitDe\RealurlTyposcriptRenderingFix\Hooks;
 
 /***************************************************************
  *

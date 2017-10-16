@@ -1,5 +1,5 @@
 {
-  "name": "webit/realurl-typoscript-rendering-fix",
+  "name": "webit-de/realurl-typoscript-rendering-fix",
   "description": "Fixes a bug in RealUrl which causes infinite loops when using the TypoScript rendering extension for AJAX.",
   "license": "GPL-2.0+",
   "type": "typo3-cms-extension",
@@ -9,7 +9,7 @@
     "dmitryd/typo3-realurl": "^2.0"
   },
   "autoload": {
-    "psr-4": {"Webit\\RealurlTyposcriptRenderingFix\\": "Classes/"}
+    "psr-4": {"WebitDe\\RealurlTyposcriptRenderingFix\\": "Classes/"}
   },
   "replace": {
     "realurl_typoscript_rendering_fix": "self.version",
