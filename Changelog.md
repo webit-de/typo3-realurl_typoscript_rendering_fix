@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2017-10-16 Dan Untenzu <untenzu@webit.de>
+
+  * 2.0.0
+  * BUGFIX Rename composer vendor key
+
 2017-06-22 Dan Untenzu <untenzu@webit.de>
 
   * 1.0.0

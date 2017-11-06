@@ -19,7 +19,7 @@ $EM_CONF[$_EXTKEY] = array(
     'author' => 'Lidia Demin',
     'author_email' => 'demin@webit.de',
     'author_company' => '',
-    'version' => '1.0.0',
+    'version' => '2.0.0',
     'constraints' => array(
         'depends' => array(
             /*TYPO3 core & Fluid Powered TYPO3*/
