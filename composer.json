@@ -6,7 +6,8 @@
   "require": {
     "php": ">=7.0.0",
     "typo3/cms-core": "^7.6 || ^8.7",
-    "dmitryd/typo3-realurl": "^2.0"
+    "dmitryd/typo3-realurl": "^2.0",
+    "helhum/typoscript-rendering": "^2.0"
   },
   "autoload": {
     "psr-4": {"WebitDe\\RealurlTyposcriptRenderingFix\\": "Classes/"}
