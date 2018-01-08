@@ -4,6 +4,9 @@ RealUrl TypoScript Rendering Fix
 This TYPO3 patch extension fixes a bug in RealUrl which causes infinite loops 
 when using the TypoScript rendering extension for AJAX.
 
+[![Packagist](https://img.shields.io/packagist/v/webit-de/realurl-typoscript-rendering-fix.svg)](https://packagist.org/packages/webit-de/realurl-typoscript-rendering-fix/)
+[![TYPO3](https://img.shields.io/badge/TYPO3-extension-orange.svg)](https://typo3.org/extensions/)
+
 Requirements
 ------------
 
@@ -36,7 +39,7 @@ for webit! Gesellschaft für neue Medien mbH (http://www.webit.de/)
 Changelog
 ---------
 
-./Changelog.md
+[./Changelog.md](./Changelog.md)
 
 Contribution
 ------------
