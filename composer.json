@@ -13,7 +13,6 @@
     "psr-4": {"WebitDe\\RealurlTyposcriptRenderingFix\\": "Classes/"}
   },
   "replace": {
-    "realurl_typoscript_rendering_fix": "self.version",
     "typo3-ter/realurl-typoscript-rendering-fix": "self.version"
   }
 }
