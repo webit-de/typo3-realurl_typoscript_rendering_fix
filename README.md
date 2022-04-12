@@ -1,6 +1,9 @@
 RealUrl TypoScript Rendering Fix
 ================================
 
+**💥 EOL - This repository is not maintained anymore!**
+*→ Use TYPO3 core slugs instead of RealUrl now*
+
 This TYPO3 patch extension fixes a bug in RealUrl which causes infinite loops 
 when using the TypoScript rendering extension for AJAX.
 
